@@ -1,8 +1,13 @@
 <?php
 
-require __DIR__ . "/data.php";
+require __DIR__ . "/data.php"
+?>
 
-foreach ($teams as $team => $teamInfo): ?>
+<?php foreach ($teams as $team => $teamInfo): ?>
     <h3> <?= $team; ?> </h3>
-
+    <ul>
+        <?php foreach ($teamInfo as $key => $value): ?>
+            <li> <?= $value; ?> </li>
+        <?php endforeach; ?>
+    </ul>
 <?php endforeach; ?>
