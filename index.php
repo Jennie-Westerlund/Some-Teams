@@ -5,7 +5,7 @@ require __DIR__ . "/data.php"
 
 <?php foreach ($teams as $team => $teamInfo): ?>
     <img src="<?= $teamInfo['logo'] ?>" alt="logotype" width="120px">
-    <h3> <?= $team; ?> </h3>
+    <h4> <?= $team; ?> </h4>
     <ul>
         <?php foreach ($teamInfo as $key => $value): ?>
             <?php if ($key === 'logo'): ?>
