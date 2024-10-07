@@ -12,7 +12,7 @@ require __DIR__ . "/header.php";
             <?php if ($key === 'logo'): ?>
                 <?php continue; ?>
             <?php endif; ?>
-            <li> <?= "$key: " . $value; ?> </li>
+            <li> <?= ucwords($key) . ": " . $value; ?> </li>
         <?php endforeach; ?>
     </ul>
 <?php endforeach; ?>
