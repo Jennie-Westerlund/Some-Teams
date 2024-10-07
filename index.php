@@ -1,6 +1,7 @@
 <?php
 
-require __DIR__ . "/data.php"
+require __DIR__ . "/data.php";
+require __DIR__ . "/header.php";
 ?>
 
 <?php foreach ($teams as $team => $teamInfo): ?>
@@ -15,3 +16,8 @@ require __DIR__ . "/data.php"
         <?php endforeach; ?>
     </ul>
 <?php endforeach; ?>
+
+
+
+
+<?php require __DIR__ . "/footer.php"; ?>
