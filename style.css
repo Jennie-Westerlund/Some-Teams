@@ -36,6 +36,19 @@ main {
     opacity: 0.7; 
 }
 
+.about-link {
+    text-decoration: none;
+    color: #f6f6f6;
+    line-height: 0.5; 
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.about-link:hover {
+    text-decoration: none;
+    opacity: 0.7; 
+}
+
 /* Header */
 
 header {
@@ -46,7 +59,7 @@ header {
 
 .hero-img {
     width: 100vw; 
-    height: 91vh; 
+    height: 75vh; 
     object-fit:cover; 
 }
 
@@ -59,6 +72,7 @@ header {
     top: 0;
     display: flex;
     justify-content: center;
+    z-index: 20;
 } 
 
 h1 {
@@ -140,6 +154,55 @@ h3 {
     width: 120px;
     margin: 15px;
 }
+
+/* about */ 
+
+#about {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+} 
+
+.about-card {
+    background-color: #f6f6f6 ;  
+    width: 640px;
+    height: 417px;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    margin-left: -50px;
+}
+
+.jennie-img {
+    margin-top: 30px;
+    position: relative;
+    z-index: 3;
+    width: 640px;
+    height: 417px; 
+} 
+
+.about-card h4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #202e36;
+}
+
+.about-card p {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #202e36;
+}
+
+
 
 /* Footer */
 

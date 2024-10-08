@@ -1,7 +1,4 @@
-<?php
-
-require __DIR__ . "/header.php";
-?>
+<?php require __DIR__ . "/header.php"; ?>
 
 <section id="teams" class="grid-container">
     <div class="grid">

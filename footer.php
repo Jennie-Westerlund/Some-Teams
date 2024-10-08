@@ -1,11 +1,5 @@
     <footer>
         <div class="footer-box">
-            <!--             <h5>Teams</h5>
-            <?php foreach ($teams as $team => $teamInfo): ?>
-                <ul>
-                    <li> <?= $team ?></li>
-                </ul>
-            <?php endforeach; ?> -->
             <h5>Contact</h5>
             <ul>
                 <li><a class="links" href="mailto:jmn.westerlund@gmail.com">jmn.westerlund@gmail.com</a></li>
