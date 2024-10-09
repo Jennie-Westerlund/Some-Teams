@@ -18,6 +18,6 @@
             <h1>Football</h1>
         </header>
         <div class="nav-box">
-            <h3><a class="teams-link" href="/index.php">Teams</a></h3>
-            <h3><a class="about-link" href="/about.php">About</a></h3>
+            <h3><a class="teams-link" href="index.php">Teams</a></h3>
+            <h3><a class="about-link" href="about.php">About</a></h3>
         </div>
